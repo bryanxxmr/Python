@@ -1,0 +1,1 @@
+print("La union de ambos es: \n\t'" + input("Escribe tu nombre:") + " " + input("¿Que estas estudiando?") +"'")
