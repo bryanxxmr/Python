@@ -1,10 +1,10 @@
-def suma(*variosNumeros):
-    total = 0
-    for numero in variosNumeros:
-        total += numero
-    print(f"La suma de los números es: {total}")
+def suma(*numeros):
+    resultado = 0
+    for numero in numeros:
+        resultado += numero
+        print(f"Número actual: {numero}, Suma parcial: {resultado}")
+    print(f"La suma es: {resultado}")
 
 
-suma(1, 2, 3, 4, 5)
-suma(10, 20, 30)
-suma(100, 200, 300, 400, 500, 600)
+suma(2, 4, 5)  # Llamada a la función con varios argumentos
+suma(4, 5, 6, 7, 8)  # Llamada a la función con más argumentos
